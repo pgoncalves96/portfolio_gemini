@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nome do Profissional - Portfólio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Nome do Profissional</h1>
+            <p>Seu Título Profissional (Ex: Designer Gráfico, Desenvolvedor Web, Fotógrafo)</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <img src="sua-foto.jpg" alt="Sua foto de perfil" class="profile-photo">
+                <p>
+                    Escreva aqui uma breve descrição sobre você, sua experiência, suas habilidades e sua paixão pela sua área. Fale sobre o que te inspira e o que você busca na sua carreira.
+                </p>
+                <p>
+                    Mencione suas principais habilidades, como software que você domina, linguagens de programação, ou técnicas específicas.
+                </p>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="container">
+                <h2>Portfólio</h2>
+                <div class="gallery">
+                    <div class="portfolio-item">
+                        <img src="projeto1.jpg" alt="Descrição do Projeto 1">
+                        <h3>Nome do Projeto 1</h3>
+                        <p>Breve descrição sobre o projeto, incluindo o seu papel nele, as tecnologias/ferramentas utilizadas e os resultados obtidos.</p>
+                        <a href="link-para-o-projeto.html" target="_blank" class="btn">Ver Projeto</a>
+                    </div>
+
+                    <div class="portfolio-item">
+                        <img src="projeto2.jpg" alt="Descrição do Projeto 2">
+                        <h3>Nome do Projeto 2</h3>
+                        <p>Breve descrição sobre o projeto, incluindo o seu papel nele, as tecnologias/ferramentas utilizadas e os resultados obtidos.</p>
+                        <a href="link-para-o-projeto.html" target="_blank" class="btn">Ver Projeto</a>
+                    </div>
+                    
+                    </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <div class="container">
+                <h2>Contato</h2>
+                <p>Entre em contato para discutirmos novos projetos ou oportunidades de trabalho.</p>
+                <form action="seu-servidor-de-email.php" method="post" class="contact-form">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+                    <button type="submit" class="btn">Enviar</button>
+                </form>
+                <div class="social-links">
+                    <p>Você também pode me encontrar aqui:</p>
+                    <a href="https://linkedin.com/in/seuperfil" target="_blank">LinkedIn</a> |
+                    <a href="https://github.com/seuperfil" target="_blank">GitHub</a> |
+                    <a href="https://behance.net/seuperfil" target="_blank">Behance</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Nome do Profissional. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
